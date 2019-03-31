@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class AirportTest {
@@ -26,6 +28,10 @@ public class AirportTest {
             assertEquals(1, airport.getFlightCount());
         }
 
+      @Test
+     public void assignPlaneToFlight() {
+
+      }
 
 
     }
